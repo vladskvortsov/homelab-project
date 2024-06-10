@@ -1,0 +1,44 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/services
+
+- Infrastructure:
+    - Home Proxmox:
+        href: https://192.168.1.103:8006
+        description: 
+        icon: proxmox.png
+        siteMonitor: https://192.168.1.103:8006
+        widget:
+            type: proxmox
+            url: https://192.168.1.103:8006
+            username: {{HOMEPAGE_VAR_PROXMOX_USERNAME}}
+            password: {{HOMEPAGE_VAR_PROXMOX_PASSWORD}}
+            # node: pve # optional
+- Networking:
+    - Home Archer:
+        href: http://192.168.1.1
+        description: 
+        icon: si-tplink
+        siteMonitor: http://192.168.1.1
+    - Home Mikrotik:
+        href: http://10.10.1.1
+        description: 
+        icon: mikrotik.png
+        siteMonitor: http://10.10.1.1
+        widget:
+            type: mikrotik
+            url: http://10.10.1.1
+            username: {{HOMEPAGE_VAR_HOME_MIKROTIK_USERNAME}}
+            password: {{HOMEPAGE_VAR_HOME_MIKROTIK_PASSWORD}}
+- Web Sites:
+    - NGINX:
+        href: http://localhost/
+        description: 
+        server: local-docker
+        container: nginx
+- Monitoring:
+    - Work Zabbix:
+        href: http://zabbix.msht.eu/zabbix.php?action=dashboard.view&dashboardid=1
+        description: 
+        icon: zabbix.png
+        siteMonitor: http://zabbix.msht.eu/

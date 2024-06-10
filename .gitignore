@@ -32,3 +32,6 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+.env
+terraform/deploy-proxmox-vm/.terraform.lock.hcl
+homepage/config/logs/homepage.log

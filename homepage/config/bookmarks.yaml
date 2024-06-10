@@ -1,0 +1,21 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/bookmarks
+
+- Developer:
+    - Github:
+        - abbr: GH
+          href: https://github.com/vladskvortsov?tab=repositories
+# - Social:
+    # - Reddit:
+        # - abbr: RE
+          # href: https://reddit.com/
+
+- Entertainment:
+    - YouTube:
+        - abbr: YT
+          href: https://youtube.com/
+- Cloud Services:
+    - AWS:
+        - abbr: AWS
+          href: https://signin.aws.amazon.com/signin?redirect_uri=https%3A%2F%2Feu-west-2.console.aws.amazon.com%2Fec2%2Fhome%3FhashArgs%3D%2523Instances%253A%26isauthcode%3Dtrue%26region%3Deu-west-2%26state%3DhashArgsFromTB_eu-west-2_557bfaf510e8f810&client_id=arn%3Aaws%3Asignin%3A%3A%3Aconsole%2Fec2-tb&forceMobileApp=0&code_challenge=qFz1z9HOpYdhfYJE-fD9K7ia1vlwawH4oVGGX-b3vmo&code_challenge_method=SHA-256
